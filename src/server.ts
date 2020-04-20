@@ -7,5 +7,5 @@ const app = express();
 app.use(routes);
 
 app.listen('3333', () => {
-  console.log('🚀 Subiu na porta 3333');
+  console.log('🚀 Aplicação iniciada na porta 3333');
 });
